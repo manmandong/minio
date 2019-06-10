@@ -223,8 +223,8 @@ func parsePreSignV4(query url.Values, region string, stype serviceType) (psv pre
 		return psv, ErrNegativeExpires
 	}
 
-	// Check if Expiry time is less than 7 days (value in seconds).
-	if preSignV4Values.Expires.Seconds() > 630720000 {
+	// Check if Expiry time is less than 2147483647 (value in seconds).
+	if preSignV4Values.Expires.Seconds() > 2147483647 {
 		return psv, ErrMaximumExpires
 	}
 
