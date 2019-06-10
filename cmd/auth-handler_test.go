@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/auth"
 )
 
 // Test get request auth type.

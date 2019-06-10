@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	xnet "github.com/minio/minio/pkg/net"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 func TestJWT(t *testing.T) {

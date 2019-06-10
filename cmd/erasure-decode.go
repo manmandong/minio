@@ -21,7 +21,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/minio/minio/cmd/logger"
+	"github.com/manmandong/minio/cmd/logger"
 )
 
 // Reads in parallel from readers.

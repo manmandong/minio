@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/madmin"
 )
 
 func (xl xlObjects) ReloadFormat(ctx context.Context, dryRun bool) error {

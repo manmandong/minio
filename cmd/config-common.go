@@ -24,8 +24,8 @@ import (
 	"time"
 
 	etcd "github.com/coreos/etcd/clientv3"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/hash"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/hash"
 )
 
 var errConfigNotFound = errors.New("config file not found")

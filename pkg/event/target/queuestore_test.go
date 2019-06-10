@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/minio/minio/pkg/event"
+	"github.com/manmandong/minio/pkg/event"
 )
 
 // TestDir

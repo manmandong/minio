@@ -24,8 +24,8 @@ import (
 	"path"
 	"sync"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/mimedb"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/mimedb"
 )
 
 // list all errors which can be ignored in object operations.

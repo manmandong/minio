@@ -30,9 +30,9 @@ import (
 	"strconv"
 
 	"github.com/minio/minio-go/v6/pkg/encrypt"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/ioutil"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/ioutil"
 	sha256 "github.com/minio/sha256-simd"
 	"github.com/minio/sio"
 )

@@ -24,15 +24,15 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/event/target"
-	"github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/iam/validator"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/manmandong/minio/cmd/crypto"
+	xhttp "github.com/manmandong/minio/cmd/http"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/event"
+	"github.com/manmandong/minio/pkg/event/target"
+	"github.com/manmandong/minio/pkg/iam/policy"
+	"github.com/manmandong/minio/pkg/iam/validator"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 // Steps to move from version N to version N+1

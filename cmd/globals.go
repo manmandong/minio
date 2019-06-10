@@ -28,13 +28,13 @@ import (
 	etcd "github.com/coreos/etcd/clientv3"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/fatih/color"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/dns"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/iam/validator"
+	"github.com/manmandong/minio/cmd/crypto"
+	xhttp "github.com/manmandong/minio/cmd/http"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/certs"
+	"github.com/manmandong/minio/pkg/dns"
+	iampolicy "github.com/manmandong/minio/pkg/iam/policy"
+	"github.com/manmandong/minio/pkg/iam/validator"
 )
 
 // minio configuration related constants.

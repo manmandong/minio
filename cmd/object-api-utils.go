@@ -35,12 +35,12 @@ import (
 
 	snappy "github.com/golang/snappy"
 	"github.com/minio/minio-go/v6/pkg/s3utils"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/dns"
-	"github.com/minio/minio/pkg/hash"
-	"github.com/minio/minio/pkg/ioutil"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/dns"
+	"github.com/manmandong/minio/pkg/hash"
+	"github.com/manmandong/minio/pkg/ioutil"
+	"github.com/manmandong/minio/pkg/wildcard"
 	"github.com/skyrings/skyring-common/tools/uuid"
 )
 

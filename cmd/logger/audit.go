@@ -19,7 +19,7 @@ package logger
 import (
 	"net/http"
 
-	"github.com/minio/minio/cmd/logger/message/audit"
+	"github.com/manmandong/minio/cmd/logger/message/audit"
 )
 
 // ResponseWriter - is a wrapper to trap the http response status code.

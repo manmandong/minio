@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/pkg/handlers"
+	"github.com/manmandong/minio/pkg/handlers"
 )
 
 // Version - represents the current version of audit log structure.

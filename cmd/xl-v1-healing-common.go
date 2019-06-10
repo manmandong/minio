@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/madmin"
 )
 
 // commonTime returns a maximally occurring time from a list of time.

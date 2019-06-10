@@ -17,7 +17,7 @@
 package iampolicy
 
 import (
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // ReadWrite - provides full access to all buckets and all objects

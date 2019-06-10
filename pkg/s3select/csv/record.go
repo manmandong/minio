@@ -24,7 +24,7 @@ import (
 	"fmt"
 
 	"github.com/bcicen/jstream"
-	"github.com/minio/minio/pkg/s3select/sql"
+	"github.com/manmandong/minio/pkg/s3select/sql"
 )
 
 // Record - is CSV record.

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/minio/minio/pkg/policy/condition"
+	"github.com/manmandong/minio/pkg/policy/condition"
 )
 
 // Statement - policy statement.

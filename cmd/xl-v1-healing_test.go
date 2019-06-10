@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/manmandong/minio/pkg/madmin"
 )
 
 // Tests undoes and validates if the undoing completes successfully.

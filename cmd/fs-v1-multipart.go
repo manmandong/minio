@@ -28,8 +28,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	mioutil "github.com/minio/minio/pkg/ioutil"
+	"github.com/manmandong/minio/cmd/logger"
+	mioutil "github.com/manmandong/minio/pkg/ioutil"
 )
 
 // Returns EXPORT/.minio.sys/multipart/SHA256/UPLOADID

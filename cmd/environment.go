@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/crypto"
 )
 
 const (

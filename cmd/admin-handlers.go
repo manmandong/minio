@@ -34,15 +34,15 @@ import (
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/cpu"
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/handlers"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/mem"
-	xnet "github.com/minio/minio/pkg/net"
-	"github.com/minio/minio/pkg/quick"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/cpu"
+	"github.com/manmandong/minio/pkg/disk"
+	"github.com/manmandong/minio/pkg/handlers"
+	iampolicy "github.com/manmandong/minio/pkg/iam/policy"
+	"github.com/manmandong/minio/pkg/madmin"
+	"github.com/manmandong/minio/pkg/mem"
+	xnet "github.com/manmandong/minio/pkg/net"
+	"github.com/manmandong/minio/pkg/quick"
 )
 
 const (

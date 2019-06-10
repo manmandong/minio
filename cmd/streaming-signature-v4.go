@@ -29,7 +29,7 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/auth"
 	sha256 "github.com/minio/sha256-simd"
 )
 

@@ -28,7 +28,7 @@ import (
 	"syscall"
 
 	"github.com/minio/minio-go/v6/pkg/set"
-	"github.com/minio/minio/cmd/logger"
+	"github.com/manmandong/minio/cmd/logger"
 )
 
 // IPv4 addresses of local host.

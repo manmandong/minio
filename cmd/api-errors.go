@@ -28,12 +28,12 @@ import (
 	"google.golang.org/api/googleapi"
 
 	minio "github.com/minio/minio-go/v6"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/dns"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/hash"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/dns"
+	"github.com/manmandong/minio/pkg/event"
+	"github.com/manmandong/minio/pkg/hash"
 )
 
 // APIError structure
@@ -194,7 +194,7 @@ const (
 	ErrInvalidStorageClass
 	ErrBackendDown
 	// Add new extended error codes here.
-	// Please open a https://github.com/minio/minio/issues before adding
+	// Please open a https://github.com/manmandong/minio/issues before adding
 	// new error codes here.
 
 	ErrMalformedJSON
@@ -584,7 +584,7 @@ var errorCodes = errorCodeMap{
 		Description:    "X-Amz-Date must be in the ISO8601 Long Format \"yyyyMMdd'T'HHmmss'Z'\"",
 		HTTPStatusCode: http.StatusBadRequest,
 	},
-	// FIXME: Should contain the invalid param set as seen in https://github.com/minio/minio/issues/2385.
+	// FIXME: Should contain the invalid param set as seen in https://github.com/manmandong/minio/issues/2385.
 	// right Description:    "Error parsing the X-Amz-Credential parameter; incorrect date format \"%s\". This date in the credential must be in the format \"yyyyMMdd\".",
 	// Need changes to make sure variable messages can be constructed.
 	ErrMalformedCredentialDate: {
@@ -592,7 +592,7 @@ var errorCodes = errorCodeMap{
 		Description:    "Error parsing the X-Amz-Credential parameter; incorrect date format \"%s\". This date in the credential must be in the format \"yyyyMMdd\".",
 		HTTPStatusCode: http.StatusBadRequest,
 	},
-	// FIXME: Should contain the invalid param set as seen in https://github.com/minio/minio/issues/2385.
+	// FIXME: Should contain the invalid param set as seen in https://github.com/manmandong/minio/issues/2385.
 	// right Description:    "Error parsing the X-Amz-Credential parameter; the region 'us-east-' is wrong; expecting 'us-east-1'".
 	// Need changes to make sure variable messages can be constructed.
 	ErrMalformedCredentialRegion: {
@@ -605,7 +605,7 @@ var errorCodes = errorCodeMap{
 		Description:    "Region does not match.",
 		HTTPStatusCode: http.StatusBadRequest,
 	},
-	// FIXME: Should contain the invalid param set as seen in https://github.com/minio/minio/issues/2385.
+	// FIXME: Should contain the invalid param set as seen in https://github.com/manmandong/minio/issues/2385.
 	// right Description:   "Error parsing the X-Amz-Credential parameter; incorrect service \"s4\". This endpoint belongs to \"s3\".".
 	// Need changes to make sure variable messages can be constructed.
 	ErrInvalidService: {
@@ -613,7 +613,7 @@ var errorCodes = errorCodeMap{
 		Description:    "Error parsing the X-Amz-Credential parameter; incorrect service. This endpoint belongs to \"s3\".",
 		HTTPStatusCode: http.StatusBadRequest,
 	},
-	// FIXME: Should contain the invalid param set as seen in https://github.com/minio/minio/issues/2385.
+	// FIXME: Should contain the invalid param set as seen in https://github.com/manmandong/minio/issues/2385.
 	// Description:   "Error parsing the X-Amz-Credential parameter; incorrect terminal "aws4_reque". This endpoint uses "aws4_request".
 	// Need changes to make sure variable messages can be constructed.
 	ErrInvalidRequestVersion: {

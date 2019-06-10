@@ -26,8 +26,8 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/minio/dsync"
-	"github.com/minio/minio/cmd/logger"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/manmandong/minio/cmd/logger"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 const (

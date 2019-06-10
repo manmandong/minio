@@ -31,13 +31,13 @@ import (
 	"github.com/minio/cli"
 	miniogopolicy "github.com/minio/minio-go/v6/pkg/policy"
 	"github.com/minio/minio-go/v6/pkg/s3utils"
-	minio "github.com/minio/minio/cmd"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/hash"
-	"github.com/minio/minio/pkg/policy"
-	"github.com/minio/minio/pkg/policy/condition"
+	minio "github.com/manmandong/minio/cmd"
+	xhttp "github.com/manmandong/minio/cmd/http"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/hash"
+	"github.com/manmandong/minio/pkg/policy"
+	"github.com/manmandong/minio/pkg/policy/condition"
 )
 
 const (

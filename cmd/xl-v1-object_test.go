@@ -28,7 +28,7 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/manmandong/minio/pkg/madmin"
 )
 
 func TestRepeatPutObjectPart(t *testing.T) {
@@ -60,7 +60,7 @@ func TestRepeatPutObjectPart(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	// PutObjectPart should succeed even if part already exists. ref: https://github.com/minio/minio/issues/1930
+	// PutObjectPart should succeed even if part already exists. ref: https://github.com/manmandong/minio/issues/1930
 	_, err = objLayer.PutObjectPart(context.Background(), "bucket1", "mpartObj1", uploadID, 1, mustGetPutObjReader(t, bytes.NewReader(fiveMBBytes), 5*humanize.MiByte, md5Hex, ""), opts)
 	if err != nil {
 		t.Fatal(err)

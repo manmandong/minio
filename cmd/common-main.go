@@ -30,12 +30,12 @@ import (
 	dns2 "github.com/miekg/dns"
 	"github.com/minio/cli"
 	"github.com/minio/minio-go/v6/pkg/set"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/logger/target/console"
-	"github.com/minio/minio/cmd/logger/target/http"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/dns"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/cmd/logger/target/console"
+	"github.com/manmandong/minio/cmd/logger/target/http"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/dns"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 // Check for updates and print a notification message

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // DefaultVersion - default policy version as per AWS S3 specification.

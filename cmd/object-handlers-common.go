@@ -22,9 +22,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/handlers"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/pkg/event"
+	"github.com/manmandong/minio/pkg/handlers"
 )
 
 var (

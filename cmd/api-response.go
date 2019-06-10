@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/handlers"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/handlers"
 )
 
 const (

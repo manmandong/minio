@@ -36,10 +36,10 @@ import (
 
 	humanize "github.com/dustin/go-humanize"
 	"github.com/klauspost/readahead"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/disk"
-	xioutil "github.com/minio/minio/pkg/ioutil"
-	"github.com/minio/minio/pkg/mountinfo"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/disk"
+	xioutil "github.com/manmandong/minio/pkg/ioutil"
+	"github.com/manmandong/minio/pkg/mountinfo"
 	"github.com/ncw/directio"
 )
 

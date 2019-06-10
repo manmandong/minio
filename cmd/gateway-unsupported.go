@@ -19,9 +19,9 @@ package cmd
 import (
 	"context"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/madmin"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // GatewayUnsupported list of unsupported call stubs for gateway.

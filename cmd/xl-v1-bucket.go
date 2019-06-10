@@ -22,8 +22,8 @@ import (
 	"sync"
 
 	"github.com/minio/minio-go/v6/pkg/s3utils"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // list all errors that can be ignore in a bucket operation.

@@ -27,10 +27,10 @@ import (
 	"github.com/minio/minio-go/v6/pkg/set"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/dns"
-	"github.com/minio/minio/pkg/handlers"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/dns"
+	"github.com/manmandong/minio/pkg/handlers"
 	"github.com/rs/cors"
 )
 

@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/lock"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/disk"
+	"github.com/manmandong/minio/pkg/lock"
 )
 
 const (

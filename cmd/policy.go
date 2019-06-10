@@ -28,10 +28,10 @@ import (
 
 	miniogopolicy "github.com/minio/minio-go/v6/pkg/policy"
 	"github.com/minio/minio-go/v6/pkg/set"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/handlers"
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/event"
+	"github.com/manmandong/minio/pkg/handlers"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // PolicySys - policy subsystem.

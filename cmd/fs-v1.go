@@ -31,12 +31,12 @@ import (
 	"time"
 
 	"github.com/minio/minio-go/v6/pkg/s3utils"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/lock"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/mimedb"
-	"github.com/minio/minio/pkg/mountinfo"
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/lock"
+	"github.com/manmandong/minio/pkg/madmin"
+	"github.com/manmandong/minio/pkg/mimedb"
+	"github.com/manmandong/minio/pkg/mountinfo"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // Default etag is used for pre-existing objects.

@@ -63,8 +63,8 @@ import (
 	"time"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/manmandong/minio/pkg/event"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 const (

@@ -34,7 +34,7 @@ import (
 	"golang.org/x/oauth2"
 	googleOAuth2 "golang.org/x/oauth2/google"
 
-	"github.com/minio/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/auth"
 )
 
 // AssumedRoleUser - The identifiers for the temporary security credentials that

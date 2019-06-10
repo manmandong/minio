@@ -24,9 +24,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/minio/minio/pkg/cpu"
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/mem"
+	"github.com/manmandong/minio/pkg/cpu"
+	"github.com/manmandong/minio/pkg/disk"
+	"github.com/manmandong/minio/pkg/mem"
 )
 
 // BackendType - represents different backend types.

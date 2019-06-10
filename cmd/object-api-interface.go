@@ -22,8 +22,8 @@ import (
 	"net/http"
 
 	"github.com/minio/minio-go/v6/pkg/encrypt"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/pkg/madmin"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // CheckCopyPreconditionFn returns true if copy precondition check failed.

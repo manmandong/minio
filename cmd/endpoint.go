@@ -32,11 +32,11 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"github.com/minio/cli"
 	"github.com/minio/minio-go/v6/pkg/set"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/cpu"
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/mem"
-	"github.com/minio/minio/pkg/mountinfo"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/cpu"
+	"github.com/manmandong/minio/pkg/disk"
+	"github.com/manmandong/minio/pkg/mem"
+	"github.com/manmandong/minio/pkg/mountinfo"
 )
 
 // EndpointType - enum for endpoint type.

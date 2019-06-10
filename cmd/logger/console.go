@@ -24,7 +24,7 @@ import (
 	"time"
 
 	c "github.com/minio/mc/pkg/console"
-	"github.com/minio/minio/cmd/logger/message/log"
+	"github.com/manmandong/minio/cmd/logger/message/log"
 )
 
 // Console interface describes the methods that need to be implemented to satisfy the interface requirements.

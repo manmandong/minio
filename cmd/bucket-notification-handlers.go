@@ -23,11 +23,11 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/event/target"
-	xnet "github.com/minio/minio/pkg/net"
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/event"
+	"github.com/manmandong/minio/pkg/event/target"
+	xnet "github.com/manmandong/minio/pkg/net"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 const (

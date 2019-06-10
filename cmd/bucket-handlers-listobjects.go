@@ -21,10 +21,10 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/logger"
 
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // Validate all the ListObjects query arguments, returns an APIErrorCode

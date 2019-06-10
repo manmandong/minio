@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	"github.com/minio/minio-go/v6/pkg/set"
-	"github.com/minio/minio/pkg/ellipses"
+	"github.com/manmandong/minio/pkg/ellipses"
 )
 
 // This file implements and supports ellipses pattern for

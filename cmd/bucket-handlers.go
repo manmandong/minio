@@ -31,14 +31,14 @@ import (
 	"github.com/gorilla/mux"
 
 	"github.com/minio/minio-go/v6/pkg/set"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/dns"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/handlers"
-	"github.com/minio/minio/pkg/hash"
-	"github.com/minio/minio/pkg/policy"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/dns"
+	"github.com/manmandong/minio/pkg/event"
+	"github.com/manmandong/minio/pkg/handlers"
+	"github.com/manmandong/minio/pkg/hash"
+	"github.com/manmandong/minio/pkg/policy"
+	"github.com/manmandong/minio/pkg/sync/errgroup"
 )
 
 // Check if there are buckets on server without corresponding entry in etcd backend and

@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/minio/minio-go/v6/pkg/encrypt"
-	minio "github.com/minio/minio/cmd"
+	minio "github.com/manmandong/minio/cmd"
 
-	"github.com/minio/minio/cmd/logger"
+	"github.com/manmandong/minio/cmd/logger"
 )
 
 const (

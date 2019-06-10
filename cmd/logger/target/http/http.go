@@ -22,7 +22,7 @@ import (
 	"errors"
 	gohttp "net/http"
 
-	xhttp "github.com/minio/minio/cmd/http"
+	xhttp "github.com/manmandong/minio/cmd/http"
 )
 
 // Target implements logger.Target and sends the json

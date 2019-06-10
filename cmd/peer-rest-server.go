@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/event"
+	xnet "github.com/manmandong/minio/pkg/net"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // To abstract a node over network.

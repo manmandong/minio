@@ -32,8 +32,8 @@ import (
 
 	"github.com/inconshreveable/go-update"
 	"github.com/minio/cli"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
+	xhttp "github.com/manmandong/minio/cmd/http"
+	"github.com/manmandong/minio/cmd/logger"
 	_ "github.com/minio/sha256-simd" // Needed for sha256 hash verifier.
 	"github.com/segmentio/go-prompt"
 )
@@ -239,7 +239,7 @@ func IsSourceBuild() bool {
 //   MinIO (<OS>; <ARCH>[; <MODE>][; dcos][; kubernetes][; docker][; source]) MinIO/<VERSION> MinIO/<RELEASE-TAG> MinIO/<COMMIT-ID> [MinIO/universe-<PACKAGE-NAME>] [MinIO/helm-<HELM-VERSION>]
 //
 // Any change here should be discussed by opening an issue at
-// https://github.com/minio/minio/issues.
+// https://github.com/manmandong/minio/issues.
 func getUserAgent(mode string) string {
 
 	userAgentParts := []string{}

@@ -21,8 +21,8 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/manmandong/minio/pkg/event"
+	xnet "github.com/manmandong/minio/pkg/net"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/stan.go"
 )

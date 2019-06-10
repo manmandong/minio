@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"os"
 
-	xnet "github.com/minio/minio/pkg/net"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 // OpaArgs opa general purpose policy engine configuration.

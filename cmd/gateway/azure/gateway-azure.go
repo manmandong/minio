@@ -37,14 +37,14 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"github.com/minio/cli"
 	miniogopolicy "github.com/minio/minio-go/v6/pkg/policy"
-	"github.com/minio/minio/cmd"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/policy"
-	"github.com/minio/minio/pkg/policy/condition"
+	"github.com/manmandong/minio/cmd"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/policy"
+	"github.com/manmandong/minio/pkg/policy/condition"
 	sha256 "github.com/minio/sha256-simd"
 
-	minio "github.com/minio/minio/cmd"
+	minio "github.com/manmandong/minio/cmd"
 )
 
 const (
@@ -574,7 +574,7 @@ func (a *azureObjects) ListObjects(ctx context.Context, bucket, prefix, marker, 
 			// or through the AWS Management Console, and are encrypted by SSE-S3
 			// or plaintext, have ETags that are an MD5 digest of their object data.
 			//
-			// Some applications depend on this behavior refer https://github.com/minio/minio/issues/6550
+			// Some applications depend on this behavior refer https://github.com/manmandong/minio/issues/6550
 			// So we handle it here and make this consistent.
 			etag := minio.ToS3ETag(blob.Properties.Etag)
 			switch {
@@ -731,7 +731,7 @@ func (a *azureObjects) GetObjectInfo(ctx context.Context, bucket, object string,
 	// or through the AWS Management Console, and are encrypted by SSE-S3
 	// or plaintext, have ETags that are an MD5 digest of their object data.
 	//
-	// Some applications depend on this behavior refer https://github.com/minio/minio/issues/6550
+	// Some applications depend on this behavior refer https://github.com/manmandong/minio/issues/6550
 	// So we handle it here and make this consistent.
 	etag := minio.ToS3ETag(blob.Properties.Etag)
 	switch {

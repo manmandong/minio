@@ -22,8 +22,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/event/target"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/event/target"
 )
 
 func TestServerConfig(t *testing.T) {

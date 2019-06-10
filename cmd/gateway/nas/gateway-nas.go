@@ -20,8 +20,8 @@ import (
 	"context"
 
 	"github.com/minio/cli"
-	minio "github.com/minio/minio/cmd"
-	"github.com/minio/minio/pkg/auth"
+	minio "github.com/manmandong/minio/cmd"
+	"github.com/manmandong/minio/pkg/auth"
 )
 
 const (

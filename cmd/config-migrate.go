@@ -24,15 +24,15 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/event/target"
-	"github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/iam/validator"
-	xnet "github.com/minio/minio/pkg/net"
-	"github.com/minio/minio/pkg/quick"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/event"
+	"github.com/manmandong/minio/pkg/event/target"
+	"github.com/manmandong/minio/pkg/iam/policy"
+	"github.com/manmandong/minio/pkg/iam/validator"
+	xnet "github.com/manmandong/minio/pkg/net"
+	"github.com/manmandong/minio/pkg/quick"
 )
 
 // DO NOT EDIT following message template, please open a github issue to discuss instead.

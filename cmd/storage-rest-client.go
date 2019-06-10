@@ -31,9 +31,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/rest"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/manmandong/minio/cmd/http"
+	"github.com/manmandong/minio/cmd/rest"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 func isNetworkError(err error) bool {

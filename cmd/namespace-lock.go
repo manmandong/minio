@@ -30,8 +30,8 @@ import (
 	"github.com/minio/dsync"
 	"github.com/minio/lsync"
 	"github.com/minio/minio-go/v6/pkg/set"
-	"github.com/minio/minio/cmd/logger"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/manmandong/minio/cmd/logger"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 // Global name space lock.
@@ -350,7 +350,7 @@ func getSource() string {
 	if ok {
 		filename = pathutil.Base(filename)
 		funcName = strings.TrimPrefix(runtime.FuncForPC(pc).Name(),
-			"github.com/minio/minio/cmd.")
+			"github.com/manmandong/minio/cmd.")
 	} else {
 		filename = "<unknown>"
 		lineNum = 0

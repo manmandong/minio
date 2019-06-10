@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/minio/minio/pkg/policy/condition"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/manmandong/minio/pkg/policy/condition"
+	"github.com/manmandong/minio/pkg/wildcard"
 )
 
 // Action - policy action.

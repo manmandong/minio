@@ -27,10 +27,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/handlers"
-	httptracer "github.com/minio/minio/pkg/handlers"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/handlers"
+	httptracer "github.com/manmandong/minio/pkg/handlers"
 )
 
 // Parses location constraint from the incoming reader.

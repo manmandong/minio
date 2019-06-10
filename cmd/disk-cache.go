@@ -31,10 +31,10 @@ import (
 
 	"github.com/djherbis/atime"
 
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/hash"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/manmandong/minio/cmd/crypto"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/hash"
+	"github.com/manmandong/minio/pkg/wildcard"
 )
 
 const (

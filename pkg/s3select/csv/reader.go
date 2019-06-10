@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/minio/minio/pkg/s3select/sql"
+	"github.com/manmandong/minio/pkg/s3select/sql"
 )
 
 type recordReader struct {

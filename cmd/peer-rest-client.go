@@ -24,12 +24,12 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/rest"
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
-	"github.com/minio/minio/pkg/policy"
+	"github.com/manmandong/minio/cmd/http"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/cmd/rest"
+	"github.com/manmandong/minio/pkg/event"
+	xnet "github.com/manmandong/minio/pkg/net"
+	"github.com/manmandong/minio/pkg/policy"
 )
 
 // client to talk to peer Nodes.

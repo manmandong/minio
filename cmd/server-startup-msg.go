@@ -25,8 +25,8 @@ import (
 	"strings"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/logger"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/manmandong/minio/cmd/logger"
+	xnet "github.com/manmandong/minio/pkg/net"
 )
 
 // Documentation links, these are part of message printing code.

@@ -30,8 +30,8 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/madmin"
 )
 
 var (

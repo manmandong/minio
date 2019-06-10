@@ -19,7 +19,7 @@ package json
 import (
 	"io"
 
-	"github.com/minio/minio/pkg/s3select/sql"
+	"github.com/manmandong/minio/pkg/s3select/sql"
 
 	"github.com/bcicen/jstream"
 )

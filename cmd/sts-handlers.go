@@ -22,10 +22,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/iam/validator"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/auth"
+	"github.com/manmandong/minio/pkg/iam/validator"
+	"github.com/manmandong/minio/pkg/wildcard"
 )
 
 const (

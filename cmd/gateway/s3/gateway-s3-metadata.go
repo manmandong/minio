@@ -24,9 +24,9 @@ import (
 	"net/http"
 	"time"
 
-	minio "github.com/minio/minio/cmd"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/hash"
+	minio "github.com/manmandong/minio/cmd"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/hash"
 	"github.com/tidwall/gjson"
 )
 

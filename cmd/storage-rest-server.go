@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/logger"
+	"github.com/manmandong/minio/cmd/logger"
 )
 
 var errConnectionStale = errors.New("connection stale, REST client/server instance-id mismatch")

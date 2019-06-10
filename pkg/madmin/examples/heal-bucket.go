@@ -22,7 +22,7 @@ package main
 import (
 	"log"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/manmandong/minio/pkg/madmin"
 )
 
 func main() {

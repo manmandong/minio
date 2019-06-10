@@ -28,9 +28,9 @@ import (
 
 	"github.com/minio/cli"
 	"github.com/minio/dsync"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/certs"
+	xhttp "github.com/manmandong/minio/cmd/http"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/certs"
 )
 
 func init() {

@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	xhttp "github.com/minio/minio/cmd/http"
+	xhttp "github.com/manmandong/minio/cmd/http"
 )
 
 const (

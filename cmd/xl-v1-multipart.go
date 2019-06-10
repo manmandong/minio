@@ -27,8 +27,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/mimedb"
+	"github.com/manmandong/minio/cmd/logger"
+	"github.com/manmandong/minio/pkg/mimedb"
 )
 
 func (xl xlObjects) getUploadIDDir(bucket, object, uploadID string) string {
